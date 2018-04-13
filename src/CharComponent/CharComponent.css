@@ -1,0 +1,16 @@
+.CharComponent {
+  display: inline-block;
+  cursor: pointer;
+  user-select: none;
+}
+
+.CharComponent span {
+  font-size: 30px;
+  font-weight: bold;
+  transition: margin .1s linear;
+}
+
+.CharComponent:hover span {
+  color: red;
+  margin: 0 5px;
+}
