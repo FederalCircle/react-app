@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './App.css';
+import styles from './App.css';
 
 import ValidationComponent from './ValidationComponent/ValidationComponent';
 import CharComponent from './CharComponent/CharComponent';
@@ -27,7 +27,7 @@ class App extends Component {
     let charArray = this.state.text.split('');
     let textLength = this.state.text.length;
     return (
-      <div className="App">
+      <div className={styles.App}>
         <h1>React App</h1>
         <input
           type="text"
